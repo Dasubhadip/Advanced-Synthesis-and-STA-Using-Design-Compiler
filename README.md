@@ -15,12 +15,12 @@ For this process we have used Design Compiler which is offering from Synopsys. Y
 In a ASIC design flow there are different 
 
   
-#Introduction-to-DC-Tool
+# Introduction-to-DC-Tool
   
-#Small-overview-of-TCL
+# Small-overview-of-TCL
   
-#Basics-of-Static-Timing-Analysis
+# Basics-of-Static-Timing-Analysis
 
-#Overview-of-SkyWater130nm-library
+# Overview-of-SkyWater130nm-library
 
-#Synopsys-Design-Constraints-(SDC)
+# Synopsys-Design-Constraints-(SDC)
