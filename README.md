@@ -93,7 +93,8 @@ In almost all cases a digital circuit can be modelled
 # Overview-of-SkyWater130nm-library
 
 # Synopsys-Design-Constraints-(SDC)
-# Resource sharing Multi Check
+# Combinational Optimization
+  # Resource sharing Multi Check
 Setting Max delay from all_input to all_output
 area RUN1 - without any constraints
   ![image](https://user-images.githubusercontent.com/56382025/134783411-3dad72ac-06fe-413d-8275-6feece81c873.png)
@@ -115,7 +116,7 @@ restricting select path:
   circuit :
   ![image](https://user-images.githubusercontent.com/56382025/134783617-cf4c2186-dd27-432f-b07a-989d31f9c7c6.png)
 
-
+# Sequencial Optimization
 
 
 
