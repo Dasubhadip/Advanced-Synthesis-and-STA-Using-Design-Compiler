@@ -135,6 +135,10 @@ dff_const2
   ![image](https://user-images.githubusercontent.com/56382025/134784340-ede67536-9560-4cbb-8bfd-04d0884f68cc.png)
   without optimization
   ![image](https://user-images.githubusercontent.com/56382025/134784721-2f39f022-3d54-43d9-8d82-36898bf1e558.png)
+  dff_const4
+  ![image](https://user-images.githubusercontent.com/56382025/134784908-fbc5b609-c01a-4f1f-b458-b628c978c851.png)
+![image](https://user-images.githubusercontent.com/56382025/134784972-da987e4a-5285-4f2d-927d-990388eb39e1.png)
+
 
 
 
