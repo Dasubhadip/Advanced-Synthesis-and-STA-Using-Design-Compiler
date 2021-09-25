@@ -45,6 +45,7 @@ And now you maybe confused which one we need because each circuit is logically c
   
 # Introduction-to-DC-Tool
   
+Now that we have an idea on the need of logic synthesis we need to discuss the tool that we are using. Why we use tool because logic optimization is a big task to do manually. Here we have used Synopsys Design Compiler. Another reaaon to use this is for mainly the SDC or Synopsys Design Constraints. This file is fed to DC compiler with RTL and .lib file. SDC guides the synthesis tool to extract exadct logic gate optimization and create netlist. The library file as feed to the tool in a .dc format. The netlist this tool churns out is with ectention .ddc.
 # Small-overview-of-TCL
   
 # Basics-of-Static-Timing-Analysis
