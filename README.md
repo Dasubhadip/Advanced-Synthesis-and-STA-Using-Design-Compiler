@@ -12,8 +12,15 @@ For this process we have used Design Compiler which is offering from Synopsys. Y
 
 
 # Introduction-to-Logic-Synthesis
-In a ASIC design flow there are different 
+The ASIC design flow starts with the design specification and after that RTL codeing. The RTL code afterwards need to translated into terms of logic cells to fabricate on the silicon. The synthesis is a step where we take RTL code (Verilog, VHDL, etc.), technolnogy library and try to convert the logics written in RTL format to standerd cells format. The .lib file is the source of the technology library, it can be from any of the foundery. Here for this excersize we have used SKYWATER 130nm library.
 
+Now the question is what is the need of this logic synthesis step. We can be happy with the high level RTL code. We can discuss this with a small example. let us take a small verilog code :
+  module model_code (input a, input b, output z)
+    assign z= (a&b) | (b&c) | (c&a);
+  endmodule
+This can be implemented in multiple ways. Here we have added 3:
+  ![image](https://user-images.githubusercontent.com/56382025/134770172-2594080d-5740-4ead-84f2-e9f8bc471228.png)
+implementation 1
   
 # Introduction-to-DC-Tool
   
