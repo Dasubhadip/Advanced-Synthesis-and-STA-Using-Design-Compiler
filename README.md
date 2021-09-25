@@ -22,6 +22,8 @@ This can be implemented in multiple ways. Here we have added 3:
   
 ![image](https://user-images.githubusercontent.com/56382025/134770172-2594080d-5740-4ead-84f2-e9f8bc471228.png)
   implementation 1
+![image](https://user-images.githubusercontent.com/56382025/134770217-ce3a7669-6a25-4940-9c89-b595a735b5a3.png)
+  implementation 2
   
 # Introduction-to-DC-Tool
   
