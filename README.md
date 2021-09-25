@@ -57,6 +57,30 @@ In the read design step DC can read verilog and also 3rd party library files. In
 ![image](https://user-images.githubusercontent.com/56382025/134771798-12692081-e19f-4b90-af01-5213ba87593d.png)
 
 # Small-overview-of-TCL
+
+TCL stands for Tool Command Language. The SDC is written in this format. There are also some dc specific commands are mixed. Here we will see some of the tcl instructions. TCL is a bery strongly typed language. Unlike verilog the white space is an issue. We need to be careful about white spaces we provide. \
+  * set a 5 : This is a way we can set a variable with a value. In this case 'a' is being set to value 5.
+  * set a [expr $a + $b] : This means the value of 'a' and 'b' are added and stored in variable 'a'.
+  * $a : Like C pointers is you want to get the value you need to have '$' in front of a variable.
+  * echo a : echo is a print function here like c pointer it wont print the value it has.
+  * echo $a : This prints the value 'a' has.
+  * if {condition} { : Branching statement format.
+    statements; 
+    }
+    else {
+    statements;
+    }
+  * for {looping_var} {condition} {loopin_var increment} { : echo "For Loop format";
+    statements;
+   }
+  * foreach varlist { : General TCL statement also used in DC;
+    statements;
+    }
+  * foreach_in_collection cell_name [collection] {
+    statements;
+    } : Exclusive to DC commands.
+   example : ![image](https://user-images.githubusercontent.com/56382025/134772322-04db5e5a-8035-4f80-995f-c54fb9965a6c.png)
+
   
 # Basics-of-Static-Timing-Analysis
 
