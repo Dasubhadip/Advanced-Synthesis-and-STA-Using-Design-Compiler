@@ -93,7 +93,32 @@ In almost all cases a digital circuit can be modelled
 # Overview-of-SkyWater130nm-library
 
 # Synopsys-Design-Constraints-(SDC)
-![image](https://user-images.githubusercontent.com/56382025/134782661-1dfca10e-81bf-4424-b1a4-3cc85852b942.png)
+# Resource sharing Multi Check
+Setting Max delay from all_input to all_output
+area RUN1 - without any constraints
+  ![image](https://user-images.githubusercontent.com/56382025/134783411-3dad72ac-06fe-413d-8275-6feece81c873.png)
+  setting delay from all inputs to all outputr 2.5ns
+  timing met
+  ![image](https://user-images.githubusercontent.com/56382025/134783465-837267f2-e993-4e4b-9fe6-3f8a9cfccf10.png)
+area 
+  ![image](https://user-images.githubusercontent.com/56382025/134783485-4c903063-75f1-4088-990f-6b2e58b75bca.png)
+circuit
+  ![image](https://user-images.githubusercontent.com/56382025/134783511-d94cdc4a-05a3-42a6-b426-653db39e81eb.png)
+restricting select path:
+  time violation
+  ![image](https://user-images.githubusercontent.com/56382025/134783551-f06eefd0-17df-4545-b0d1-07c4dbe77044.png)
+  compile ultra
+  area increase 
+  ![image](https://user-images.githubusercontent.com/56382025/134783587-f6e514d2-0b57-4c4d-9296-a8669e007dc4.png)
+  timing slack
+  ![image](https://user-images.githubusercontent.com/56382025/134783600-6e5eb298-a501-4b1a-8027-e5aff5cbc4a2.png)
+  circuit :
+  ![image](https://user-images.githubusercontent.com/56382025/134783617-cf4c2186-dd27-432f-b07a-989d31f9c7c6.png)
+
+
+
+
+
   implementation after area contraints to 800
 ![image](https://user-images.githubusercontent.com/56382025/134783191-d9b59093-91f2-4144-aa5e-2934101cd7c5.png)
   report_area
