@@ -46,6 +46,16 @@ And now you maybe confused which one we need because each circuit is logically c
 # Introduction-to-DC-Tool
   
 Now that we have an idea on the need of logic synthesis we need to discuss the tool that we are using. Why we use tool because logic optimization is a big task to do manually. Here we have used Synopsys Design Compiler. Another reaaon to use this is for mainly the SDC or Synopsys Design Constraints. This file is fed to DC compiler with RTL and .lib file. SDC guides the synthesis tool to extract exadct logic gate optimization and create netlist. The library file as feed to the tool in a .dc format. The netlist this tool churns out is with ectention .ddc.
+
+To open a DC shell ypu have to type in terminal csh and the n dc_shell. The the shell will fire up and it will look something like this : 
+  ![image](https://user-images.githubusercontent.com/56382025/134771304-4f6e1279-c650-4818-8ada-bb57bc645fd6.png)
+ 
+The DC synthesis flow starts with the technlogy library(.dc/.lib) files as input. DC reads the standerd cell data from library file and try to place suitable cells on the circuit. Thrn there is a command read_verilog <file-name>. Also dc reads the sdc file. with link command dc links the design with library. Then it starts synthesizing the command is compile_ultra. After compilation is done DC analyses the QoR, generate reports and write out the netlist. 
+  
+In the read design step DC can read verilog and also 3rd party library files. In DC to provide the library there are 2 variables we have to set. One is target_library and link_library. When the DC fired up in the terminal DC try to get the values of the target_library and link_library values froma file called .synopsys_dc.setup . We can create a file with a same name and set the valriables with the wanted library. In this way we do not have to set these variables each time.
+  
+![image](https://user-images.githubusercontent.com/56382025/134771798-12692081-e19f-4b90-af01-5213ba87593d.png)
+
 # Small-overview-of-TCL
   
 # Basics-of-Static-Timing-Analysis
