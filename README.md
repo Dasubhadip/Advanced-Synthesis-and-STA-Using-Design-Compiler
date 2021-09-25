@@ -19,8 +19,9 @@ Now the question is what is the need of this logic synthesis step. We can be hap
     assign z= (a&b) | (b&c) | (c&a);
   endmodule
 This can be implemented in multiple ways. Here we have added 3:
-  ![image](https://user-images.githubusercontent.com/56382025/134770172-2594080d-5740-4ead-84f2-e9f8bc471228.png)
-implementation 1
+  
+![image](https://user-images.githubusercontent.com/56382025/134770172-2594080d-5740-4ead-84f2-e9f8bc471228.png)
+  implementation 1
   
 # Introduction-to-DC-Tool
   
