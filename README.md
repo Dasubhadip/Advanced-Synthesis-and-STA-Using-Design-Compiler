@@ -22,10 +22,27 @@ This can be implemented in multiple ways. Here we have added 3:
   
 ![image](https://user-images.githubusercontent.com/56382025/134770172-2594080d-5740-4ead-84f2-e9f8bc471228.png)
   implementation 1
+  
 ![image](https://user-images.githubusercontent.com/56382025/134770217-ce3a7669-6a25-4940-9c89-b595a735b5a3.png)
   implementation 2
+
 ![image](https://user-images.githubusercontent.com/56382025/134770458-8e29e30f-e856-4169-b186-ef77f884e61d.png)
 implementation 3
+  
+And now you maybe confused which one we need because each circuit is logically correct. If I provide you with a tavle with the value of different standerd cells. The table will have delay values and area value like this :
+  
+  STD CELLS DETAILS
+  | Name | Area (um^2) | Delay(ns) |
+  |---|---|---|
+  |2 i/p AND| 0.1| 2|
+  |3 i/p OR| 0.3| 2|
+  |2 i/p OR| 0.1| 1|
+  |2 i/p NAND| 0.1| 1|
+  |2 i/p NAND| 0.15| 1.5|
+  
+  Now if you calculate the figures of delay and area for each implementation you will find out that implementation 3 is good choice in terms of area and timing. But while implementation you will see that always faster cells are not chosen because it depends on the timing paths and criticality. For a path in you design you wante a fast and gate but also in some cases you will see if you provide slower gates it meets the requirement but if you still use a faster gate it will increase in area.
+  
+  
 # Introduction-to-DC-Tool
   
 # Small-overview-of-TCL
