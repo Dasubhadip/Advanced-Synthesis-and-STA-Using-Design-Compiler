@@ -116,7 +116,6 @@ restricting select path:
   circuit :
   ![image](https://user-images.githubusercontent.com/56382025/134783617-cf4c2186-dd27-432f-b07a-989d31f9c7c6.png)
 
-# Sequencial Optimization
 
 
 
@@ -126,6 +125,13 @@ restricting select path:
   ![image](https://user-images.githubusercontent.com/56382025/134783218-faccc023-b7b6-41c3-856d-0f83ef36e388.png)
   timing report
   ![image](https://user-images.githubusercontent.com/56382025/134783232-cabaa5bf-db42-466f-8d9a-b063df9ee726.png)
+
+  
+  # Sequencial Optimization
+  dff_const1
+![image](https://user-images.githubusercontent.com/56382025/134784285-78273228-d7bf-422f-991a-e4b2904bd3b3.png)
+dff_const2
+  ![image](https://user-images.githubusercontent.com/56382025/134784340-ede67536-9560-4cbb-8bfd-04d0884f68cc.png)
 
 
 
