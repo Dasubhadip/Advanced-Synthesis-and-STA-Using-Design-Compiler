@@ -94,5 +94,12 @@ In almost all cases a digital circuit can be modelled
 
 # Synopsys-Design-Constraints-(SDC)
 ![image](https://user-images.githubusercontent.com/56382025/134782661-1dfca10e-81bf-4424-b1a4-3cc85852b942.png)
+  implementation after area contraints to 800
 ![image](https://user-images.githubusercontent.com/56382025/134783191-d9b59093-91f2-4144-aa5e-2934101cd7c5.png)
+  report_area
+  ![image](https://user-images.githubusercontent.com/56382025/134783218-faccc023-b7b6-41c3-856d-0f83ef36e388.png)
+  timing report
+  ![image](https://user-images.githubusercontent.com/56382025/134783232-cabaa5bf-db42-466f-8d9a-b063df9ee726.png)
+
+
 
