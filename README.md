@@ -24,7 +24,8 @@ This can be implemented in multiple ways. Here we have added 3:
   implementation 1
 ![image](https://user-images.githubusercontent.com/56382025/134770217-ce3a7669-6a25-4940-9c89-b595a735b5a3.png)
   implementation 2
-  
+![image](https://user-images.githubusercontent.com/56382025/134770458-8e29e30f-e856-4169-b186-ef77f884e61d.png)
+implementation 3
 # Introduction-to-DC-Tool
   
 # Small-overview-of-TCL
