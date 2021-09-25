@@ -79,11 +79,16 @@ TCL stands for Tool Command Language. The SDC is written in this format. There a
   * foreach_in_collection cell_name [collection] {
     statements;
     } : Exclusive to DC commands.
-   example : ![image](https://user-images.githubusercontent.com/56382025/134772374-2c5dc98c-f0e3-45b0-bf84-5fb2dc279caa.png)
-
-
+  
+   example :
+   ![image](https://user-images.githubusercontent.com/56382025/134772374-2c5dc98c-f0e3-45b0-bf84-5fb2dc279caa.png)
   
 # Basics-of-Static-Timing-Analysis
+  Static timing analysis is mainly we see in this step. Here we will discuss what STA basics and what are the things we need to consider. We will take up and example and through that we will try go through the ideas. 
+  
+  ![image](https://user-images.githubusercontent.com/56382025/134772544-c41ceded-451c-4c48-a49b-fb382f409123.png)
+
+In almost all cases a digital circuit can be modelled 
 
 # Overview-of-SkyWater130nm-library
 
