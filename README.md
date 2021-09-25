@@ -94,4 +94,5 @@ In almost all cases a digital circuit can be modelled
 
 # Synopsys-Design-Constraints-(SDC)
 ![image](https://user-images.githubusercontent.com/56382025/134782661-1dfca10e-81bf-4424-b1a4-3cc85852b942.png)
+![image](https://user-images.githubusercontent.com/56382025/134783191-d9b59093-91f2-4144-aa5e-2934101cd7c5.png)
 
