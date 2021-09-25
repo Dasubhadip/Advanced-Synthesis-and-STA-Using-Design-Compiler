@@ -93,3 +93,5 @@ In almost all cases a digital circuit can be modelled
 # Overview-of-SkyWater130nm-library
 
 # Synopsys-Design-Constraints-(SDC)
+![image](https://user-images.githubusercontent.com/56382025/134782661-1dfca10e-81bf-4424-b1a4-3cc85852b942.png)
+
