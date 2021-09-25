@@ -79,7 +79,8 @@ TCL stands for Tool Command Language. The SDC is written in this format. There a
   * foreach_in_collection cell_name [collection] {
     statements;
     } : Exclusive to DC commands.
-   example : ![image](https://user-images.githubusercontent.com/56382025/134772322-04db5e5a-8035-4f80-995f-c54fb9965a6c.png)
+   example : ![image](https://user-images.githubusercontent.com/56382025/134772374-2c5dc98c-f0e3-45b0-bf84-5fb2dc279caa.png)
+
 
   
 # Basics-of-Static-Timing-Analysis
