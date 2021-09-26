@@ -203,8 +203,16 @@ after applying mcp hold
   ![image](https://user-images.githubusercontent.com/56382025/134807570-adacc63c-268f-4f11-9ada-f19797f5c7e7.png)
   
   * check_design
+  ![image](https://user-images.githubusercontent.com/56382025/134813395-65a832c9-aa4f-40ad-8032-8b37f97a2b9a.png)
+  * check_timing
+  ![image](https://user-images.githubusercontent.com/56382025/134813469-5e5ad01e-9f04-442f-ba18-e95d47f28da6.png)
+  * sourcing the lab9_cons_modified.tcl
+  ![image](https://user-images.githubusercontent.com/56382025/134813540-6609697f-16f9-439c-a0f6-36eb47d15d06.png)
+ * check_timing
+  
   
 # High-fan-Net
+  reading enable_129_mux
   ![image](https://user-images.githubusercontent.com/56382025/134812027-e4aeee6f-8bd6-4bfa-946b-ce20bd50137e.png)
 Transition problem
   ![image](https://user-images.githubusercontent.com/56382025/134812120-732fbe28-89d5-4b8a-85c4-7d69434192e1.png)
