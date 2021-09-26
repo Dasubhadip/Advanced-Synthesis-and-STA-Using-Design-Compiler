@@ -201,6 +201,9 @@ after applying mcp hold
 
   report_timing -through U15/Y -delay_type min
   ![image](https://user-images.githubusercontent.com/56382025/134807570-adacc63c-268f-4f11-9ada-f19797f5c7e7.png)
+  
+  * check_design
+  
 # High-fan-Net
   ![image](https://user-images.githubusercontent.com/56382025/134812027-e4aeee6f-8bd6-4bfa-946b-ce20bd50137e.png)
 Transition problem
@@ -217,7 +220,7 @@ set_max_transition 0.150 [current_design]
   ![image](https://user-images.githubusercontent.com/56382025/134812465-8efcaf47-22c3-4ca3-8aca-70b2d3f34453.png)
 previously
 ![image](https://user-images.githubusercontent.com/56382025/134812618-d04da53e-07d7-4d7e-8674-b9572012d9c6.png)
-
+if we do not set the capacitance and transition the the default library values will be considered which is vvwey large.
 
   
 
