@@ -164,6 +164,16 @@ In almost all cases a digital circuit can be modelled
  
   * Constraining with vclk
  ![image](https://user-images.githubusercontent.com/56382025/134817797-62da749e-c072-4e9d-913c-2cceff23f9a1.png)
+  ![image](https://user-images.githubusercontent.com/56382025/134817888-e31d4fbb-6bd6-4cd1-827b-6c16822e78c2.png)
+set_input_delay -max 5 [get_ports IN_C] -clock [get_clocks MYVCLK]
+set_input_delay -max 5 [get_ports IN_D] -clock [get_clocks MYVCLK]
+set_output_delay -max 5 [get_ports OUT_Z] -clock [get_clocks MYVCLK]
+  ![image](https://user-images.githubusercontent.com/56382025/134818032-d4320751-3074-4d25-8acf-f615369fd79b.png)
+still violated. now compile_ultra.
+  
+  ![image](https://user-images.githubusercontent.com/56382025/134818067-227a69ed-08a8-4fa6-99ea-4e94f3261305.png)
+slack met
+  
 
 
 
