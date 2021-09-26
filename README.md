@@ -91,6 +91,22 @@ TCL stands for Tool Command Language. The SDC is written in this format. There a
 In almost all cases a digital circuit can be modelled 
 
 # Overview-of-SkyWater130nm-library
+  ![image](https://user-images.githubusercontent.com/56382025/134818294-b77a9180-5746-41d5-bad5-960801eb1957.png)
+  ![image](https://user-images.githubusercontent.com/56382025/134818343-07fabab0-03ae-478c-9d55-5d11889fb40d.png)
+  ![image](https://user-images.githubusercontent.com/56382025/134818399-1a2fb75c-54e6-48da-ae10-7a76f2630af6.png)
+  ![image](https://user-images.githubusercontent.com/56382025/134818452-ad6a70cb-2383-4adb-a524-bac57a7198dd.png)
+  ![image](https://user-images.githubusercontent.com/56382025/134818475-171e926b-8be2-4ced-92bb-93adb7d23954.png)
+  ![image](https://user-images.githubusercontent.com/56382025/134818568-31d84f4d-c42a-4fc4-9e60-aa3b485feb92.png)
+  ![image](https://user-images.githubusercontent.com/56382025/134818611-457473a6-3ebc-4395-8321-362a92862209.png)
+  * Unateness
+  
+
+
+
+
+
+
+
 
 # Synopsys-Design-Constraints-(SDC)
 # Advance-Constraints
@@ -173,6 +189,9 @@ still violated. now compile_ultra.
   
   ![image](https://user-images.githubusercontent.com/56382025/134818067-227a69ed-08a8-4fa6-99ea-4e94f3261305.png)
 slack met
+  report_port -verbose
+![image](https://user-images.githubusercontent.com/56382025/134818207-bf34575f-e910-450b-8508-3a81eea4a6c6.png)
+
   
 
 
