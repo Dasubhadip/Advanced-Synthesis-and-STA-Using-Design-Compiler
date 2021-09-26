@@ -201,6 +201,23 @@ after applying mcp hold
 
   report_timing -through U15/Y -delay_type min
   ![image](https://user-images.githubusercontent.com/56382025/134807570-adacc63c-268f-4f11-9ada-f19797f5c7e7.png)
+# High-fan-Net
+  ![image](https://user-images.githubusercontent.com/56382025/134812027-e4aeee6f-8bd6-4bfa-946b-ce20bd50137e.png)
+Transition problem
+  ![image](https://user-images.githubusercontent.com/56382025/134812120-732fbe28-89d5-4b8a-85c4-7d69434192e1.png)
+transition cost
+  ![image](https://user-images.githubusercontent.com/56382025/134812198-f65ccf24-a0cf-43d6-b800-34e9d9e33f87.png)
+report_constraints -all_violators
+  ![image](https://user-images.githubusercontent.com/56382025/134812261-222f442c-c556-4864-99f9-dd316daa945f.png)
+set_max_transition 0.150 [current_design]
+  compile_ultra
+  report_constraints -all_violators
+  ![image](https://user-images.githubusercontent.com/56382025/134812347-73b4dab0-888c-4255-8e61-9cb126858bcc.png)
+  diffrnt buffer
+  ![image](https://user-images.githubusercontent.com/56382025/134812465-8efcaf47-22c3-4ca3-8aca-70b2d3f34453.png)
+previously
+![image](https://user-images.githubusercontent.com/56382025/134812618-d04da53e-07d7-4d7e-8674-b9572012d9c6.png)
+
 
   
 
