@@ -128,7 +128,7 @@ restricting select path:
   
 
   
-  # Sequencial Optimization
+  # Sequencial-Optimization
   dff_const1
 ![image](https://user-images.githubusercontent.com/56382025/134784285-78273228-d7bf-422f-991a-e4b2904bd3b3.png)
 dff_const2
@@ -138,6 +138,44 @@ dff_const2
   dff_const4
   ![image](https://user-images.githubusercontent.com/56382025/134784908-fbc5b609-c01a-4f1f-b458-b628c978c851.png)
 ![image](https://user-images.githubusercontent.com/56382025/134784972-da987e4a-5285-4f2d-927d-990388eb39e1.png)
+  dff_const5
+  ![image](https://user-images.githubusercontent.com/56382025/134784998-7043672f-d25a-4b01-be6d-34a84a35f852.png)
+
+# Boundary-Optimization
+  DC loads without boundary
+  ![image](https://user-images.githubusercontent.com/56382025/134795849-409835ce-1090-45f2-a66b-bd3cf8a995f0.png)
+ without boundaer optimization
+  ![image](https://user-images.githubusercontent.com/56382025/134795967-bcdd20d3-71c0-42a8-81e1-6520af1e48d5.png)
+  
+  
+# Register-Retiming
+  ![image](https://user-images.githubusercontent.com/56382025/134797543-725d5e8a-6cfb-453f-8fc4-c58e260d0203.png)
+
+  ![image](https://user-images.githubusercontent.com/56382025/134796393-f6fd0843-2451-46e8-98d5-39fc2bad1a8e.png)
+  before compile_ultrs -retime
+  ![image](https://user-images.githubusercontent.com/56382025/134797510-59c96bf0-06d5-4142-825d-efedafb86c73.png)
+
+after compiling weith -retime
+  ![image](https://user-images.githubusercontent.com/56382025/134797222-845dc567-61c2-4ae6-8d45-7fea63008f64.png)
+  input timing  after contraining and retime
+  ![image](https://user-images.githubusercontent.com/56382025/134797384-4ab21443-6fc7-44a1-87d7-a2781570dfd4.png
+  report_timing -from [all_inputs]
+![image](https://user-images.githubusercontent.com/56382025/134797412-945207fe-9a7f-4d09-b416-db198fad5e52.png)
+  output slack violated by small margin
+  ![image](https://user-images.githubusercontent.com/56382025/134797461-147cb373-f9b0-49dd-bb58-46a3fdb61076.png)
+  
+  # Isolating-output-ports
+  without isolate
+  ![image](https://user-images.githubusercontent.com/56382025/134798275-c728c2df-0209-42a2-a0e9-b81733466653.png)
+  ![image](https://user-images.githubusercontent.com/56382025/134798295-26c4f492-d3d9-4ef1-bdae-cfa9a78b6e22.png)
+After isolating
+  ![image](https://user-images.githubusercontent.com/56382025/134798351-68e7127b-4366-4b0b-860c-2c0ac868d475.png)
+  ![image](https://user-images.githubusercontent.com/56382025/134798408-c537820a-3806-4153-9b0f-e00cbf184b8c.png)
+
+
+
+
+
 
 
 
