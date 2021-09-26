@@ -133,6 +133,30 @@ In almost all cases a digital circuit can be modelled
   REG2REG contraints
   ![image](https://user-images.githubusercontent.com/56382025/134815806-449eec2f-6750-41ba-8542-041f53317397.png)
 ![image](https://user-images.githubusercontent.com/56382025/134815843-7ac213c9-fafd-419b-b7e6-f7885c773462.png)
+![image](https://user-images.githubusercontent.com/56382025/134815934-a4c6180b-da91-4e8d-ab54-d7a5669a9e66.png)
+![image](https://user-images.githubusercontent.com/56382025/134815989-0949d17a-c5f4-4869-909b-b04dcb0ffeee.png)
+
+# I/O-Delay-modelling
+  report_port -verbose
+  ![image](https://user-images.githubusercontent.com/56382025/134816022-372724dc-e3e0-4f8e-b4d3-bdda39d62576.png)
+  report-timing -from IN_A
+  ![image](https://user-images.githubusercontent.com/56382025/134816121-875986de-d062-4265-b73d-77bd81ef2a08.png)
+
+  report-timing -to OUT_Y
+  ![image](https://user-images.githubusercontent.com/56382025/134816087-e5c412ca-a4dd-4720-95f5-30adaeb1800e.png)
+  
+  ![image](https://user-images.githubusercontent.com/56382025/134816279-6b3fbc83-1a05-4a8c-bd8e-668dd8138d93.png)
+![image](https://user-images.githubusercontent.com/56382025/134816471-af8fef08-ebff-4242-a481-221b8768efb6.png)
+![image](https://user-images.githubusercontent.com/56382025/134816483-8051f683-df58-42a3-a916-cdcba28fd2a2.png)
+
+  * lab14_circuit
+  ![image](https://user-images.githubusercontent.com/56382025/134817335-c04eed6d-f9ff-4522-8b62-3721dce9807c.png)
+![image](https://user-images.githubusercontent.com/56382025/134817411-4d2f0170-91b9-4942-b23a-0de12d3c4ede.png)
+
+  
+  modified.tcl
+  ![image](https://user-images.githubusercontent.com/56382025/134816221-9fd5bdf9-53e2-44d3-bad7-0c4346fc9c7d.png)
+
 
 
 
