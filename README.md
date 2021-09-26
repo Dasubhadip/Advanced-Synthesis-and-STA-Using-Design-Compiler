@@ -100,22 +100,39 @@ In almost all cases a digital circuit can be modelled
     ![image](https://user-images.githubusercontent.com/56382025/134814225-bef0be4f-6461-48de-84da-43af69012bf9.png)
 * foreach_in_collection
   ![image](https://user-images.githubusercontent.com/56382025/134814286-0d8868a4-460c-4e19-aea3-bf8a86073767.png)
+  
   ![image](https://user-images.githubusercontent.com/56382025/134814551-e5b090e4-fcc7-42e8-ad2b-ac8720e95952.png)
+  
   * get_cells
+  
   ![image](https://user-images.githubusercontent.com/56382025/134814618-0a1e1d5f-a8cb-4f72-927c-0c18012c25d7.png)
+  
   ![image](https://user-images.githubusercontent.com/56382025/134814746-5361dc53-7610-42f1-baf8-d2dbfb8c4667.png)
  read_ddc design vision
+  
   ![image](https://user-images.githubusercontent.com/56382025/134814823-2dc2ec76-c395-4cbd-9baa-043d35750814.png)
-dfrtp - t means true output p for positive edge
+
+  dfrtp - t means true output p for positive edge
+  
   ![image](https://user-images.githubusercontent.com/56382025/134815000-3d93a3b0-214e-4070-9999-8a9f71d1f159.png)
+  
   ![image](https://user-images.githubusercontent.com/56382025/134815044-bed57caa-4740-4b4f-81a7-25fa725d3779.png)
+  
   ![image](https://user-images.githubusercontent.com/56382025/134815312-20e15fa4-4c1b-466d-91c4-5b2873d375a2.png)
-clock
+
+  # clock
+  
   ![image](https://user-images.githubusercontent.com/56382025/134815425-7a1cf399-0942-42ec-93f6-5444e80a0d4d.png)
-![image](https://user-images.githubusercontent.com/56382025/134815476-3a69e093-7896-4fd2-9fe9-d2d3d2e0e1e6.png)
-![image](https://user-images.githubusercontent.com/56382025/134815566-d6d01416-bf28-47a7-b660-457eab20a2e3.png)
+
+  ![image](https://user-images.githubusercontent.com/56382025/134815476-3a69e093-7896-4fd2-9fe9-d2d3d2e0e1e6.png)
+
+  ![image](https://user-images.githubusercontent.com/56382025/134815566-d6d01416-bf28-47a7-b660-457eab20a2e3.png)
+  
   ![image](https://user-images.githubusercontent.com/56382025/134815598-6d07241e-d3c2-4e12-b635-71661c95d916.png)
 
+  REG2REG contraints
+  ![image](https://user-images.githubusercontent.com/56382025/134815806-449eec2f-6750-41ba-8542-041f53317397.png)
+![image](https://user-images.githubusercontent.com/56382025/134815843-7ac213c9-fafd-419b-b7e6-f7885c773462.png)
 
 
 
