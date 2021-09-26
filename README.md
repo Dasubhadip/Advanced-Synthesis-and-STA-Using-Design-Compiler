@@ -158,6 +158,12 @@ In almost all cases a digital circuit can be modelled
   ![image](https://user-images.githubusercontent.com/56382025/134816221-9fd5bdf9-53e2-44d3-bad7-0c4346fc9c7d.png)
    set_max_delay 0.1 -from [all_inputs] -to [gate_ports OUT_Z]
     ![image](https://user-images.githubusercontent.com/56382025/134817623-6472efee-8a57-437d-99fe-43b57162376e.png)
+  * after running compile_ultra
+  ![image](https://user-images.githubusercontent.com/56382025/134817689-e7be20a0-6e9a-4e39-a4f2-61c78bb3d3a9.png)
+![image](https://user-images.githubusercontent.com/56382025/134817726-bbf2e077-a078-46a3-9577-0fa8f852ee5f.png)
+ 
+  * Constraining with vclk
+ ![image](https://user-images.githubusercontent.com/56382025/134817797-62da749e-c072-4e9d-913c-2cceff23f9a1.png)
 
 
 
