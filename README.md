@@ -168,10 +168,25 @@ after compiling weith -retime
   without isolate
   ![image](https://user-images.githubusercontent.com/56382025/134798275-c728c2df-0209-42a2-a0e9-b81733466653.png)
   ![image](https://user-images.githubusercontent.com/56382025/134798295-26c4f492-d3d9-4ef1-bdae-cfa9a78b6e22.png)
+  ![image](https://user-images.githubusercontent.com/56382025/134798797-30abbdfc-2051-401d-a86d-6307ce565c03.png)
+  ![image](https://user-images.githubusercontent.com/56382025/134799231-cfefb874-81f1-4f99-b971-83fe717db05d.png)
+
+
 After isolating
   ![image](https://user-images.githubusercontent.com/56382025/134798351-68e7127b-4366-4b0b-860c-2c0ac868d475.png)
   ![image](https://user-images.githubusercontent.com/56382025/134798408-c537820a-3806-4153-9b0f-e00cbf184b8c.png)
+  ![image](https://user-images.githubusercontent.com/56382025/134798882-f644978b-7dd5-4c3d-8b36-62a5d96deb83.png)
+  ![image](https://user-images.githubusercontent.com/56382025/134799283-964a431e-974f-4f03-9d3f-b9d0535c1e42.png)
 
+Multi-cycle-path
+  ![image](https://user-images.githubusercontent.com/56382025/134800211-831ee416-54a6-403b-adc7-fb5d9bf91582.png)
+![image](https://user-images.githubusercontent.com/56382025/134800243-4ffa47ff-d40d-4b84-916d-50307c036fae.png)
+![image](https://user-images.githubusercontent.com/56382025/134800338-9b027ee3-f88a-407a-beb3-f705389ee503.png)
+![image](https://user-images.githubusercontent.com/56382025/134800358-6d830aa7-cf39-4c01-8712-43e7844c7a9c.png)
+
+
+  
+  
 
 
 
