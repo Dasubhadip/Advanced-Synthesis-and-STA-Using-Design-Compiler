@@ -183,10 +183,26 @@ After isolating
   ![image](https://user-images.githubusercontent.com/56382025/134800682-66ed21e6-b914-49a9-95b3-3daddeda21e3.png)
 adding mcp
   ![image](https://user-images.githubusercontent.com/56382025/134801000-8cbf8ef4-070a-46ba-9e95-593a8f8e728c.png)
+delay -min violated
+  ![image](https://user-images.githubusercontent.com/56382025/134801052-4455932c-0b2e-4c5c-91c1-fd5fedd55d71.png)
+after applying mcp hold
+  ![image](https://user-images.githubusercontent.com/56382025/134801088-447a54c6-174b-401e-a71e-27ad38b42c41.png)
 
-![image](https://user-images.githubusercontent.com/56382025/134800243-4ffa47ff-d40d-4b84-916d-50307c036fae.png)
-![image](https://user-images.githubusercontent.com/56382025/134800338-9b027ee3-f88a-407a-beb3-f705389ee503.png)
-![image](https://user-images.githubusercontent.com/56382025/134800358-6d830aa7-cf39-4c01-8712-43e7844c7a9c.png)
+  # Report_timing
+  report_timinng -rise_from IN_A -sig 4 -trans -cap -nets > t2.rpt
+  report_timing -rise_from IN_A -sig 4 -trans -cap -nets -to REGA_reg/D > t3.rpt
+  ![image](https://user-images.githubusercontent.com/56382025/134806956-cd5bff7f-eff0-4a42-9727-587a1cf5c339.png)
+  
+  report_timing -delay_typr min IN_A
+  ![image](https://user-images.githubusercontent.com/56382025/134807642-b63098e9-bce2-40c9-b38d-4519328de7c0.png)
+
+  report_timing -thorough U15/Y 
+  ![image](https://user-images.githubusercontent.com/56382025/134807621-18f3198d-0a4d-46d4-9f10-3ab7a294517d.png)
+
+  report_timing -through U15/Y -delay_type min
+  ![image](https://user-images.githubusercontent.com/56382025/134807570-adacc63c-268f-4f11-9ada-f19797f5c7e7.png)
+
+  
 
 
   
