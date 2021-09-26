@@ -93,6 +93,32 @@ In almost all cases a digital circuit can be modelled
 # Overview-of-SkyWater130nm-library
 
 # Synopsys-Design-Constraints-(SDC)
+# Advance-Constraints
+  * Circuit-loading
+    ![image](https://user-images.githubusercontent.com/56382025/134814171-56105129-f444-467f-a9fb-1ab53be2eec6.png)
+ * get_ports * :
+    ![image](https://user-images.githubusercontent.com/56382025/134814225-bef0be4f-6461-48de-84da-43af69012bf9.png)
+* foreach_in_collection
+  ![image](https://user-images.githubusercontent.com/56382025/134814286-0d8868a4-460c-4e19-aea3-bf8a86073767.png)
+  ![image](https://user-images.githubusercontent.com/56382025/134814551-e5b090e4-fcc7-42e8-ad2b-ac8720e95952.png)
+  * get_cells
+  ![image](https://user-images.githubusercontent.com/56382025/134814618-0a1e1d5f-a8cb-4f72-927c-0c18012c25d7.png)
+  ![image](https://user-images.githubusercontent.com/56382025/134814746-5361dc53-7610-42f1-baf8-d2dbfb8c4667.png)
+ read_ddc design vision
+  ![image](https://user-images.githubusercontent.com/56382025/134814823-2dc2ec76-c395-4cbd-9baa-043d35750814.png)
+dfrtp - t means true output p for positive edge
+  ![image](https://user-images.githubusercontent.com/56382025/134815000-3d93a3b0-214e-4070-9999-8a9f71d1f159.png)
+  ![image](https://user-images.githubusercontent.com/56382025/134815044-bed57caa-4740-4b4f-81a7-25fa725d3779.png)
+  ![image](https://user-images.githubusercontent.com/56382025/134815312-20e15fa4-4c1b-466d-91c4-5b2873d375a2.png)
+clock
+  ![image](https://user-images.githubusercontent.com/56382025/134815425-7a1cf399-0942-42ec-93f6-5444e80a0d4d.png)
+![image](https://user-images.githubusercontent.com/56382025/134815476-3a69e093-7896-4fd2-9fe9-d2d3d2e0e1e6.png)
+![image](https://user-images.githubusercontent.com/56382025/134815566-d6d01416-bf28-47a7-b660-457eab20a2e3.png)
+  ![image](https://user-images.githubusercontent.com/56382025/134815598-6d07241e-d3c2-4e12-b635-71661c95d916.png)
+
+
+
+
 # Combinational Optimization
   # Resource sharing Multi Check
 Setting Max delay from all_input to all_output
@@ -214,6 +240,11 @@ after applying mcp hold
 # High-fan-Net
   reading enable_129_mux
   ![image](https://user-images.githubusercontent.com/56382025/134812027-e4aeee6f-8bd6-4bfa-946b-ce20bd50137e.png)
+  set_max_delay 3.0 -from [all_inputs] -to [all_outputs]
+  set_max_capacitance 0.025 [current_design]
+  report_constraints -all_violators
+  ![image](https://user-images.githubusercontent.com/56382025/134813865-491bef46-eaea-4e22-98dd-96d09cba1daf.png)
+
 Transition problem
   ![image](https://user-images.githubusercontent.com/56382025/134812120-732fbe28-89d5-4b8a-85c4-7d69434192e1.png)
 transition cost
